@@ -1,0 +1,53 @@
+.cart-card {
+  box-shadow: 0px 1px 2px 0px #c3c3c3;
+  font-family: 'Poppins', sans-serif;
+  text-rendering: optimizeLegibility;
+}
+.cart-card button {
+  margin: 0.25rem 0;
+}
+
+.cart-entry {
+  grid-template-columns: 24% 58% 1fr;
+}
+
+.cart-entry .thumb {
+  background-size: 75%;
+}
+
+.cart-entry > h3,
+.cart-entry > .detail > h3 {
+  font-weight: 500;
+  color: rgb(32, 33, 36);
+  font-kerning: auto;
+}
+.cart-entry > h3 {
+  font-size: 0.95rem;
+}
+.cart-entry > .detail > h3 {
+  font-size: 0.85rem;
+}
+
+.cart-entry > .detail * {
+  margin: 0;
+}
+
+.cart-entry .detail p {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #585757;
+  margin: 0;
+}
+
+.cart-entry .more-detail {
+  color: #585757;
+  font-size: 0.8rem;
+}
+
+.cart-entry .more-detail button {
+  color: #969696;
+  transition: 0.2s ease;
+}
+.cart-entry .more-detail button:hover {
+  box-shadow: 0 1px 0px 0px #969696;
+}

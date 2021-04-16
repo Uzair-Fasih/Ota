@@ -1,0 +1,25 @@
+.badge {
+  border-radius: 0.5rem;
+}
+.badge > p {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+}
+.thumbnail {
+  background-size: 50%;
+}
+
+.detail h3 {
+  font-weight: 500;
+  color: rgb(32, 33, 36);
+  font-kerning: auto;
+}
+.detail p {
+  font-weight: 400;
+  color: #585757;
+  margin: 0;
+}
+
+.delivery > * {
+  margin: 0;
+}
